@@ -1,0 +1,82 @@
+.playerBody{
+    flex: 0.8;
+    overflow-y: overlay;
+    background: linear-gradient(rgb(91, 87, 115), rgba(0,0,0,1));
+    color: white;
+    padding: 30px;
+    height: 100vh;
+}
+.playerBody::-webkit-scrollbar{
+    display: none;
+  }
+
+.body_info{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.body_info > img {
+    height: 10vw;
+    margin: 0 020px;
+    box-shadow: 0 4px 40px rgba(0,0,0,0.5);
+} 
+
+.body_infoText{
+    flex: 1;
+}
+.body_infoText > h2{  
+    font-size: 42px;
+    margin-bottom: 10px;
+
+}
+.body_infoText > p{
+    font-size: 14px;
+}
+
+.bodySong{
+    margin: 20px -30px;
+}
+.body_icon{
+    display: flex;
+    align-items: center;
+
+}
+
+.body_icon > .MuiSvgIcon-root{
+    margin-right: 20px;
+}
+.body_shuffle{
+    font-size: 70px !important;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1ED760;
+}
+.body_shuffle:hover{
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.08) !important;
+}
+.song_row{
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    margin-left: 20px;
+    color: white;
+    padding: 20px;
+}
+.song_row > img{
+    height: 6vh;
+}
+
+.song_info{
+    margin-left: 20px;
+}
+.song_info > h4{
+    font-size: 16px;
+}
+.song_info > p{
+    font-size: 14px;
+    margin-top: 3px;
+    color: gray;
+}
